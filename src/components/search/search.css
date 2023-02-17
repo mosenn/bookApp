@@ -1,0 +1,26 @@
+header > menu > form {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 25px;
+}
+header > menu > form > input {
+  margin: 2px;
+  padding: 5px;
+  text-align: right;
+}
+header > menu > form > input::placeholder {
+  font-family: irans;
+  margin: 2px;
+
+  font-size: 10px;
+}
+header > menu > form > button {
+  width: 50px;
+  height: 26px;
+}
+
+.hide {
+  display: none;
+}

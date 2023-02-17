@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: irans;
+  src: url("../public/fonts/IRANSansWeb_Medium.woff");
+}
+body,
+html {
+  font-family: irans;
+  scroll-behavior: smooth;
+}
+p,
+figcaption {
+  font-size: 1.2rem;
+  width: fit-content;
+}
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
