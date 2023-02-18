@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu } from "../pages";
-import "./style.css";
+import "./header.css";
 export const Hedaer = () => {
   return (
     <header>

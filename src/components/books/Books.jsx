@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./book.css";
 
 export const Books = ({
   id,
@@ -12,26 +13,18 @@ export const Books = ({
   genre,
 }) => {
   return (
-    <div key={id}>
-      <Link to={`/detail/${id}`}>جزئیات بیشتر</Link>
-      <h3>{genre}</h3>
-      <h2>{name}</h2>
+    <div key={id} className="parent-books">
+      <h1>{name}</h1>
       <figure>
         <img src={img} alt="" />
-        <figcaption>{caption}</figcaption>
+        <figcaption>{caption.substr(0, 107)}...</figcaption>
       </figure>
-      <div
-        style={{
-          display: "flex",
-          width: "100%",
-          justifyContent: "space-around",
-        }}
-      >
-        <p>{price} تومان</p>
-        <p>{genre}</p>
-        <p>{ISBN}</p>
-        <p>{pages}</p>
+
+      <div className="info">
+        <p>{price} قیمت به تومان</p>
+        <p> ژانر {genre} </p>
       </div>
+      <Link to={`/detail/${id}`}>جزئیات بیشتر</Link>
     </div>
   );
 };

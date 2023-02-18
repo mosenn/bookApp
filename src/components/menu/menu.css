@@ -1,0 +1,39 @@
+menu {
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+menu > nav {
+  width: 100%;
+}
+menu > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8px 0px;
+ 
+  width: 100%;
+}
+menu > nav > ul > li {
+  font-size: 1rem;
+
+  padding: 5px;
+}
+
+/* responsive  */
+@media screen and (min-width: 768px) {
+  menu {
+    flex-direction: row;
+  }
+  menu > nav > ul {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  menu > nav {
+    width: 50%;
+  }
+}

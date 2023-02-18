@@ -12,6 +12,9 @@ html {
   font-family: irans;
   scroll-behavior: smooth;
 }
+a,li {
+  text-decoration: none;
+}
 p,
 figcaption {
   font-size: 1.2rem;
@@ -26,4 +29,14 @@ img {
 ul,
 li {
   list-style-type: none;
+}
+li {
+  cursor: pointer;
+}
+
+button,
+input {
+  border: none;
+  border-radius: 2px;
+  outline: none;
 }

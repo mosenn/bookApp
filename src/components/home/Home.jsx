@@ -1,8 +1,8 @@
-import React, {  useLayoutEffect, useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
 import { Loading, Books } from "../pages";
-
+import "./home.css";
 export const Home = () => {
   //*Loadigin state
   const [loading, setLoading] = useState(false);
@@ -32,9 +32,8 @@ export const Home = () => {
 
   return (
     <main>
-      <h1>hi home page</h1>
       {Bookdata && loading ? (
-        <section>
+        <section className="books-template">
           {SearchFun().map((items) => {
             return (
               <div key={items.id}>
