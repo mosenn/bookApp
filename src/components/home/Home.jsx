@@ -7,9 +7,9 @@ export const Home = () => {
   //*Loadigin state
   const [loading, setLoading] = useState(false);
   useLayoutEffect(() => {
-    // setTimeout(() => {
-    //   setLoading(true);
-    // }, 2000);
+    setTimeout(() => {
+      setLoading(true);
+    }, 2000);
   }, []);
 
   //*take data from services

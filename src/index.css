@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: irans;
-  src: url("../public/fonts/IRANSansWeb_Medium.woff");
+  src: url("/fonts/IRANSansWeb_Medium.woff");
 }
 body,
 html {
