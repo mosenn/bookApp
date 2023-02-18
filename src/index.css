@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: irans;
   src: url("/fonts/IRANSansWeb_Medium.woff");
@@ -12,7 +13,8 @@ html {
   font-family: irans;
   scroll-behavior: smooth;
 }
-a,li {
+a,
+li {
   text-decoration: none;
 }
 p,

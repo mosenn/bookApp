@@ -13,7 +13,7 @@ menu > nav > ul {
   justify-content: space-around;
   align-items: center;
   margin: 8px 0px;
- 
+
   width: 100%;
 }
 menu > nav > ul > li {
@@ -21,7 +21,9 @@ menu > nav > ul > li {
 
   padding: 5px;
 }
-
+menu > nav > ul > li:hover {
+  color: rgb(105, 200, 200);
+}
 /* responsive  */
 @media screen and (min-width: 768px) {
   menu {

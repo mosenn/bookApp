@@ -29,6 +29,10 @@
   width: 100%;
   text-align: right;
 }
+
+.info-detail > h4 {
+  margin-left: -9px;
+}
 .info-detail > div {
   padding: 5px;
   display: flex;
@@ -75,15 +79,15 @@
     padding: 5px;
     margin-right: 10px;
   }
-  .parent-tilte-img {
-    /* border: 1px solid red; */
-  }
+
   .parent-tilte-img > figure {
-    /* border: 1px solid green; */
-    height: 90%;
+    padding: 15px;
+    border: 2px solid rgba(118, 118, 118, 0.342);
+    text-align: center;
+
+    margin: 5px 10px;
   }
   .parent-tilte-img > figure > img {
-    width: 100%;
     height: 100%;
   }
 }

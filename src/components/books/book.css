@@ -5,6 +5,7 @@
   text-align: center;
   border-radius: 2px;
   direction: rtl;
+  background: #e5e5e5;
 }
 .parent-books > p {
 }
@@ -17,10 +18,11 @@
   font-size: 1rem;
   transition: 0.4s;
   border: 1px solid rgba(66, 66, 66, 0.451);
+  border-radius: 2px;
 }
 .parent-books > a:hover {
-  background: rgba(54, 32, 123, 0.819);
-  color: #fffaff;
+  background: #3c3f45;
+  color: rgb(191, 191, 191);
 }
 
 .info {

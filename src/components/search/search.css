@@ -1,5 +1,4 @@
 form {
-
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -31,7 +30,7 @@ form > button {
 }
 form > button > svg {
   font-size: 25px;
-  color: blue;
+  color: #3c3f45;
 }
 form > button :hover {
   color: skyblue;
@@ -49,6 +48,5 @@ form > button :hover {
 @media screen and (min-width: 900px) {
   form {
     width: 30%;
-
   }
 }
