@@ -1,8 +1,7 @@
 footer {
   background: #5a5a5a;
 }
-footer > nav {
-}
+
 footer > nav > ul {
   display: flex;
   flex-direction: column;
